@@ -10,7 +10,7 @@ This extensions delete all block as ad, also delete sponsor banner. Extensions s
 
 **Second step: Click tab "Extensions" and open extensions page, continue enable developer mode.**
 
-**Three step: Click on right left corner "Add Package Extensions".**
+**Three step: Click on right left corner "Load unpacked".**
 
 **Four step: Download on page "[Releases](https://github.com/onenicked/Mail.Ru-Ad-Block-Extensions/releases/tag/adblock)" latest version extensions, and save in anything space.**
 
@@ -32,7 +32,7 @@ This extensions delete all block as ad, also delete sponsor banner. Extensions s
 
 **Второй шаг: Перейдите на вкладку «Расширения» и откройте страницу расширений, затем включите режим разработчика.**
 
-**Третий шаг: Нажмите в правом левом углу «Добавить пакет расширений».**
+**Третий шаг: Нажмите в правом левом углу «Загрузить нераспакованное».**
 
 **Четвёртый шаг: Загрузите последнюю версию расширения со страницы "[Релизы](https://github.com/onenicked/Mail.Ru-Ad-Block-Extensions/releases/tag/adblock)" и сохраните в любом месте.**
 
