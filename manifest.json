@@ -1,10 +1,23 @@
 {
   "manifest_version": 3,
-  "name": "Mail.Ru Ad Block",
-  "version": "1.1",
-  "description": "Удаляет рекламные баннеры с почтового клиента Mail.ru",
-  "permissions": ["scripting"],
+  "name": "Mail.ru AdBlocker+",
+  "version": "2.0",
+  "description": "Интерактивное расширение для удаления рекламы с почты Mail.ru",
+  "permissions": ["storage", "scripting", "tabs"],
   "host_permissions": ["https://*.mail.ru/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://*.mail.ru/*"],

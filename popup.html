@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mail.ru AdBlocker+</title>
+  <link rel="stylesheet" href="popup.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="container" class="light">
+    <h2 id="title">Mail.ru AdBlocker+</h2>
+
+    <div class="section">
+      <label id="theme-label">Тема:</label>
+      <button id="toggle-theme">🌙 Тёмная</button>
+    </div>
+
+    <div class="section">
+      <label id="lang-label">Язык:</label>
+      <select id="language">
+        <option value="ru">Русский</option>
+        <option value="en">English</option>
+      </select>
+    </div>
+
+    <div class="section">
+      <button id="toggle-ads">🚫 Выключить блокировку рекламы</button>
+    </div>
+
+    <div class="section">
+      <button id="reload-page">🔄 Перезагрузить страницу</button>
+    </div>
+
+    <div class="section">
+      <button id="feedback">✉️ Оставить отзыв</button>
+    </div>
+
+    <footer>© Mail.ru AdBlocker+</footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
