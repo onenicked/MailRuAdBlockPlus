@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="mail ru adblock" src="https://github.com/user-attachments/assets/df49e9f4-0617-457e-ad59-1efedefe8976" />
+<img width="1920" height="207" alt="banner" src="https://github.com/user-attachments/assets/4ea636b8-1a6c-4db9-b99c-fab11e597625" />
 
 ## [EN] Open source extensions. 
 
