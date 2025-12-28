@@ -50,16 +50,21 @@ langSelect.addEventListener("change", () => {
   updateUI();
 });
 
-toggleAdsBtn.addEventListener("click", () => {
+toggleAdsBtn.addEventListener("click", async () => {
   adEnabled = !adEnabled;
   chrome.storage.sync.set({ adEnabled });
-  chrome.runtime.sendMessage({ toggleAds: adEnabled });
+  
+  const tabs = await chrome.tabs.query({ active: true, currentWindow: true });
+  if (tabs[0] && tabs[0].url && !tabs[0].url.startsWith('chrome://')) {
+    chrome.tabs.sendMessage(tabs[0].id, { toggleAds: adEnabled }).catch(() => {});
+  }
+  
   updateUI();
 });
 
 reloadBtn.addEventListener("click", async () => {
   const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-  chrome.tabs.reload(tab.id);
+  if (tab) chrome.tabs.reload(tab.id);
 });
 
 feedbackBtn.addEventListener("click", () => {

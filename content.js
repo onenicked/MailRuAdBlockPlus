@@ -1,5 +1,5 @@
 let adEnabled = true;
-const adKeywords = ["рекл", "спонсор", "реклама", "advertisment", "промоакция", "акция", "скидк"];
+const adKeywords = ["рекл", "спонсор", "реклама", "advertisment", "промоакция", "акция", "скидк", "18+", "AD 0+", "Ad", "Убрать рекламу"];
 
 function isAdElement(el) {
     if (!el || !el.textContent) return false;
